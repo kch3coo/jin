@@ -1,0 +1,114 @@
+.bannerLogo {
+    height: inherit;
+    width: auto;
+  }
+  
+  .ezLogo {
+    height: 100px;
+    width: auto;
+    margin-top: 10vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .content {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+  }
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .nav-item::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #3F85B2;
+    transition: 0.2s;
+  }
+  .nav-item:hover::after {
+    width: 100%;
+  }
+  
+  
+  .accordion-control {
+  
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  
+  }
+  
+  .accordion {
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      transition: all 0.2s;
+          transition-delay: 0s;
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      transition-delay: 0s;
+      position: relative;
+      padding: .625rem;
+      border: 1px solid #e5e5e5;
+  }
+  
+  .accordion-group {
+    width: 100%;
+    border-radius: 0.25rem;
+  
+  }
+  
+  .box {
+    width:80px;
+    height:40px;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    z-index: -1;
+  }
+  
+  .purple {
+    background: #741cf2;
+  }
+  
+  .bg-dark {
+    z-index: 0;
+  }
+  
+  .text-white {
+    z-index: 1;
+  }
+  
+  #ezpurple {
+    background-color: rgba(75, 66, 155, 0.6);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  #ezorange {
+    background-color: rgba(255,165,0, 0.6);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  
+  
